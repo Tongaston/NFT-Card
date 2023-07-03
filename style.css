@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1.5%;
+    width: 275px;   
+    padding: 1.5rem;
+    box-shadow: -40px 30px 30px hsl(215, 57%, 9%), 40px 30px 30px hsl(215, 57%, 9%);
+}
+
+.div-imagen div {
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 60%);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    opacity: 0;
+}
+
+.div-imagen div:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imagen2 {
+    position: absolute;
+    top: 90px;
+    right: 90px;
+
+}
+
+.div-imagen {
+    position: relative;
+}
+
+.imagen1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+.parrafo {
+    color: hsl(215, 51%, 70%);
+    margin: 0.6rem 0 1rem 0 ;
+    font-weight: 300;
+    line-height:28px ;
+  
+}
+.precio-dias {
+    display: flex;      
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.precio {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.icono-eth {
+    margin-right: 5px;
+}
+
+.dias {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.reloj {
+    margin-right: 5px;
+}
+
+.creador {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.avatar {
+    border: 1px solid whitesmoke;    
+    border-radius: 70px;
+    margin-right: 1rem; 
+    width: 30px;
+}
+
+span {
+    color: whitesmoke;
+    margin-left: 5px;
+
+}
+
+.imagen1, h1, span {
+    cursor: pointer;
+}
+
+h1:hover, span:hover {
+    color:hsl(178, 100%, 50%);
+}
